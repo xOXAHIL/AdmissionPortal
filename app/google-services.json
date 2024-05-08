@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "549479844718",
+    "project_id": "admission-f6cb8",
+    "storage_bucket": "admission-f6cb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549479844718:android:9823df48625b3123004f7f",
+        "android_client_info": {
+          "package_name": "in.org.cocsit.collegeadmissionmanagementsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS4VlkEBr4A-k6QOI8AHSf_KKfnTZUCvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

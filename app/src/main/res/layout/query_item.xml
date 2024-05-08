@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/card_view_back"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:elevation="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewQueryQuestion"
+                android:textSize="22dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="#DC2525"
+                android:textStyle="bold"
+                android:text="Question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textViewQueryAnswer"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:text="Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

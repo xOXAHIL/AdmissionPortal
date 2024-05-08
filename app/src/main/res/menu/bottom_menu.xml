@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:title="Locate"
+        android:icon="@drawable/baseline_add_location_24"/>
+    <item
+        android:id="@+id/home"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/queries"
+        android:title="Q&amp;A"
+        android:icon="@drawable/baseline_phone_24"/>
+
+</menu>
